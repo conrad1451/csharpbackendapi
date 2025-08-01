@@ -27,7 +27,7 @@ app.MapGet("/", () =>
     return "Hi this is my first API in C#";
 })
 
-.WithName("GetWeatherForecast");
+.WithName("LandingEndpoint");
 app.MapGet("/weatherforecast", () =>
 {
     var forecast =  Enumerable.Range(1, 5).Select(index =>
